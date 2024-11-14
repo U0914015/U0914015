@@ -8,3 +8,4 @@ new Vue({
   render: (h) => h(App),
   store, // 将 Vuex Store 注入根实例
 }).$mount('#app');
+////
