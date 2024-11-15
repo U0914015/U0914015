@@ -1,0 +1,77 @@
+/* header{
+    width:100%;
+    height: auto;
+    position: fixed;
+    display: flex;
+
+}
+.menu{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+  background-color: #b8c598; 
+}
+a{
+    display: inline-block;
+    padding: 80px;
+}
+a:hover{
+    color: blueviolet;
+    background-color: palevioletred;
+}
+.menu li{
+    display: relative;
+
+}
+
+.menu  li ul{
+    display: none;
+}
+
+.menu li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: beige;
+} */
+/* 去點點、選取母子hover選項接變色 */
+
+section{
+    padding: 100px;
+}
+
+.txt::before{
+    content:"這是before";
+    color:brown;
+}
+.txt::after{
+    color:firebrick;
+    content: "這是after";
+}
+
+/* 製作一個三角形 */
+.triangle{
+    margin:200px auto ;
+    width: 300px;
+    border:100px solid transparent;
+    border-left:100px solid yellow; 
+}
+
+.recttriangle{
+    margin:200px auto ;
+    width: 100px;
+    border:200px solid transparent;
+    border-left:200px solid yellow; 
+}
+
+h1::before{
+    content:" " ;
+    position: absolute;
+    border: 36px solid transparent;
+    border-top: 36px solid transparent;
+    border-left:18px solid red; 
+    z-index: -1;
+
+}
